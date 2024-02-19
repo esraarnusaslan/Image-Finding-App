@@ -28,6 +28,8 @@ const search = (e) => {
         })
         .catch((err) => console.log(err));
     e.preventDefault();
+
+    imageListWrapper.innerHTML = '';
 };
 
 const clear = () => {
